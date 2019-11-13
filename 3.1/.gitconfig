@@ -1,0 +1,6 @@
+[alias]
+	  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --all
+	  dump = cat-file -p
+	  type = cat-file -t
+[push]
+	default = simple
