@@ -4,3 +4,7 @@
 	  type = cat-file -t
 [push]
 	default = simple
+
+[pull]
+	rebase = false
+
